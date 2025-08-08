@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+:root { --theme: #75000e; }
+.text-theme { color: var(--theme); }
+.bg-theme { background-color: var(--theme); }
